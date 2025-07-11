@@ -4,4 +4,4 @@ trafilatura
 beautifulsoup4
 requests
 pandas
-torch>=2.0.0
+torch
