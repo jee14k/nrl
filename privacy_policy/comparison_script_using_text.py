@@ -10,7 +10,7 @@ from sentence_transformers import SentenceTransformer, util
 SERPAPI_API_KEY = "8ce91dfbc822680fc4fbcca6ac148b05fd51d8a47225fd75d94102510924f721"
 
 # Load embedding model
-model = SentenceTransformer("paraphrase-mpnet-base-v2")
+model = SentenceTransformer("paraphrase-mpnet-base-v2", device="cpu")
 
 # -------- Helper Functions --------
 
